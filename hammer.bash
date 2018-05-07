@@ -1,3 +1,3 @@
 #!/bin/bash
 # start the webserver
-bash response.bash | nc -k -l 4000
+while true; do bash response.bash | nc -l 4000; done
